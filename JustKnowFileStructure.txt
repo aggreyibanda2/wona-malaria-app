@@ -1,0 +1,12 @@
+/wona-malaria-app
+  ├── /public
+  │    ├── index.html               # Main HTML file for app structure
+  │    ├── manifest.json            # PWA manifest with app name, icons, etc.
+  │    ├── icon-192.png             # App icon (192x192) for PWA
+  │    └── icon-512.png             # App icon (512x512) for PWA
+  ├── /src
+  │    ├── App.js                   # Main React component with logic for the app
+  │    ├── sync.js                  # Syncing logic (offline data sync)
+  │    └── service-worker.js        # Service worker for offline support (PWA)
+  ├── package.json                  # Project metadata and dependencies
+  └── .gitignore                    # Git ignore file for unnecessary files/folders
